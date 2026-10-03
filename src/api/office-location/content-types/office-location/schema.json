@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "office_locations",
+  "info": {
+    "singularName": "office-location",
+    "pluralName": "office-locations",
+    "displayName": "Office Location"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "city": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "isHQ": {
+      "type": "boolean"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "company_stats",
+  "info": {
+    "singularName": "company-stat",
+    "pluralName": "company-stats",
+    "displayName": "Company Stat"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

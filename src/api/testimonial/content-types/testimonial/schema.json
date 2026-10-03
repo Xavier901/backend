@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonials",
+  "info": {
+    "singularName": "testimonial",
+    "pluralName": "testimonials",
+    "displayName": "Testimonial"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "authorName": {
+      "type": "string"
+    },
+    "authorRole": {
+      "type": "string"
+    },
+    "authorCompany": {
+      "type": "string"
+    },
+    "authorPhoto": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "rating": {
+      "type": "integer"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "projectType": {
+      "type": "string"
+    },
+    "authorLinkedin": {
+      "type": "string"
+    },
+    "authorWebsite": {
+      "type": "string"
+    },
+    "authorLocation": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "resultMetric": {
+      "type": "string"
+    },
+    "videoUrl": {
+      "type": "string"
+    }
+  }
+}
