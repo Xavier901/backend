@@ -150,3 +150,18 @@ and you see like this
 ![Backend](./screenshots/img1.jpg)
 ![Backend](./screenshots/img2.jpg)
 ![Backend](./screenshots/img4.jpg)
+
+your .env file must contain
+
+```bash
+VITE_EMAILJS_SERVICE_ID=(your email service id )
+
+VITE_EMAILJS_TEMPLATE_ID=(your email service template id )
+
+VITE_EMAILJS_PUBLIC_KEY=(your email service public id )
+
+VITE_PAYPAL_CLIENT_ID= (your paypal triel account id )
+
+VITE_PAYPAL_ENVIRONMENT=sandbox
+
+```
